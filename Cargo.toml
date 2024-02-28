@@ -1,0 +1,9 @@
+[workspace]
+resolver="2"
+members = [
+    "node",
+    "pallets/voting",
+    "runtime",
+]
+[profile.release]
+panic = "unwind"
